@@ -1,0 +1,3 @@
+<launch>
+	<node name ="chat_bot" pkg ="chat_bot"  type="chat_bot.py" output= "screen" args="$(find chat_bot)/aiml/" />
+</launch>

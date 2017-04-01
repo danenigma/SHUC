@@ -1,0 +1,7 @@
+<launch>
+  <node name="web_video_server" pkg="web_video_server" type="web_video_server" output="screen">
+     <param name="port"  value = "9000" />
+     <param name="width" value = "600"/>
+     <param name="hight" value = "600"/>
+  </node>
+</launch>
