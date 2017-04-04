@@ -3,8 +3,8 @@
 
 
 import rospy
-#import talkey
-import espeak
+import festival
+from espeak import espeak
 from std_msgs.msg import String
 
 class Tts():
@@ -12,10 +12,18 @@ class Tts():
 	def __init__(self):
 		rospy.init_node(self.NODE_NAME)
 		self.sub = rospy.Subscriber('/tts_mux',String,self.tts_callback)
-		self.es  = espeak.ESpeak()
+		self.tts_type = rospy.get_param("~tts_type","espeak")
+		if self.tts_type=="espeak":
+			espeak.set_voice("en")
+
 	def tts_callback(self,text):
 		rospy.logwarn(text.data)
-		self.es.say(text.data)
+		if self.tts_type=="espeak":
+			espeak.synth(text.data)
+		elif self.tts_type=="festival":
+			festival.sayText(txt)
+		else:
+			rospy.logwarn("PLEASE SELECT A TTS")
 
 if __name__ == "__main__":
 	t = Tts()

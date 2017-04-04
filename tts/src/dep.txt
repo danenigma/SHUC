@@ -1,3 +1,4 @@
 sudo apt-get install festival
 sudo apt-get install espeak
 pip install talkey
+sudo apt-get install python python-dev festival festival-dev

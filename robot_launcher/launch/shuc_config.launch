@@ -1,0 +1,9 @@
+<launch>
+	<!--env name="ROS_IP" value="10.42.0.65"/-->
+        <node pkg="tf" type="static_transform_publisher" name="base_to_kinect_broadcaster" 
+	   args="-0.17 0.04 0.1975 0 0 0 \/base_link \/camera_link 100" />
+	<include file = "$(find robot_launcher)/launch/odom.launch"/>
+	<include file = "$(find robot_launcher)/launch/laser.launch"/>
+	<include file = "$(find android_api)/launch/android.launch"/>
+
+</launch>
