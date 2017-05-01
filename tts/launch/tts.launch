@@ -1,15 +1,18 @@
 <launch>
-
+	<!--
 	<arg name ="chat_bot"     value= "/chat_bot/speech_output"/>
 	<arg name ="api_ai"       value= "/api_ai/speech_output"/>
 	<arg name ="error"        value= "/error/speech_output"/>
 	<arg name ="nodename"     value=  "mux:=mux_chat_input"/>
 	<arg name ="output_topic" value=  "/tts_mux"/>
+	-->
 
 	<node  name = "tts" pkg = "tts" type = "tts.py" output = "screen">
-		<param name = "tts_type" value = "espeak"/>	
+		<param name = "tts_type" value = "mimic"/>	
 	</node>
+	<!--
 	<node  name = "mux" pkg = "topic_tools" type = "mux" args="$(arg output_topic) 
 		$(arg chat_bot) $(arg api_ai)
 	        $(arg error) $(arg nodename)"/>
+	-->
 </launch>

@@ -5,6 +5,7 @@
 import rospy
 import festival
 from espeak import espeak
+import subprocess
 from std_msgs.msg import String
 
 class Tts():
@@ -22,6 +23,8 @@ class Tts():
 			espeak.synth(text.data)
 		elif self.tts_type=="festival":
 			festival.sayText(txt)
+		elif self.tts_type=="mimic":
+			subprocess.call(["mimic", "-t", txt])
 		else:
 			rospy.logwarn("PLEASE SELECT A TTS")
 
