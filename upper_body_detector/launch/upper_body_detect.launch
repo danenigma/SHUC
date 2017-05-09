@@ -1,0 +1,7 @@
+<launch>
+
+	<node name="upper_body_detector" pkg="upper_body_detector" type="upper_body_detection.py">
+	
+		<param name= "cascade_path" value = "$(find upper_body_detector)/haar/haarcascade_mcs_upperbody.xml"/>
+	</node>
+</launch>
