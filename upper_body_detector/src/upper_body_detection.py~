@@ -26,7 +26,10 @@ class UpperBodyDetector:
 		bodies= self.body_cascade.detectMultiScale(gray, 1.3, 5)
 		roi = RegionOfInterest()
 		for body in bodies:
-			roi.x_offset,roi.y_offset,roi.height,roi.width = body
+			roi.x_offset  = body[0] # Leftmost pixel of the ROI
+			roi.y_offset  = body[1] # Topmost pixel of the ROI
+      			roi.height    = body[2] # Height of ROI
+			roi.width     = body[3]
 			cv2.rectangle(cv_image,(body[0],body[1]),(body[0]+body[2],body[1]+body[3]),(0,0,255),15)
 			body_list.append(roi)
 		self.ub_image_pub.publish(self.bridge.cv2_to_imgmsg(cv_image, "bgr8"))
