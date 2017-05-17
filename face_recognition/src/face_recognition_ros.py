@@ -35,7 +35,7 @@ import openface
 import rospy
 from cv_bridge import CvBridge, CvBridgeError
 from sensor_msgs.msg  import Image
-from service_tutorial.srv import FaceRecognition,FaceRecognitionResponse
+from face_recognition.srv import FaceRecognition,FaceRecognitionResponse
 class FaceRecognitionServer():
 	NODE_NAME = "face_recogntion"
 	def __init__(self):

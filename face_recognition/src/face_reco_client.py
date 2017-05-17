@@ -2,7 +2,7 @@
 #-*- coding:utf-8 -*-
 
 import rospy
-from service_tutorial.srv import FaceRecognition
+from face_recognition.srv import FaceRecognition
 import sys
 import cv2
 from cv_bridge import CvBridge, CvBridgeError
