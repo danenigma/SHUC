@@ -1,0 +1,12 @@
+string goal_type
+sensor_msgs/Image face_image
+string new_person_name
+string new_person_id
+int8   number_of_examples
+---
+string  success
+string  person_name
+float32 confidence_value
+float32 accuracy
+---
+string    number_of_faces_gathered

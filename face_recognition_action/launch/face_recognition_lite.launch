@@ -1,0 +1,12 @@
+<launch>
+	<node name ="face_recognition_action" pkg = "face_recognition_action" type="face_recognition_ros_action.py">
+		
+		<param name = "train_path " value = "$(find face_recognition_action)/dataset/train/"/>
+		<param name = "test_path "  value = "$(find face_recognition_action)/dataset/test/"/>
+		<param name = "model_path"  value = "$(find face_recognition_action)/models/recognizer.yml"/>
+		<param name = "num_training_examples"  value = "50" type = "int"/>
+		<param name = "num_training_examples"  value = "50" type = "int"/>
+		<param name = "largest_id_path" value = "$(find face_recognition_action)/largest_id.txt"/>
+		<param name = "cascadePath" value = "$(find face_recognition_action)/haar/haarcascade_frontalface_alt.xml"/>
+	</node>
+</launch>
