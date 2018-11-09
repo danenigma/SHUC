@@ -4,5 +4,5 @@
 
 ![alt text](https://github.com/danenigma/SHUC/blob/master/shuc-final.png)
 <p align="center">
-  <img width="460" height="300" src="https://github.com/danenigma/SHUC/blob/master/shuc-final.png">
+  <img src="https://github.com/danenigma/SHUC/blob/master/shuc-final.png">
 </p>
