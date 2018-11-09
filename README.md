@@ -4,13 +4,17 @@
 
 <p align="center">
   <img src="https://github.com/danenigma/SHUC/blob/master/shuc-final.png">
-  <img src="https://github.com/danenigma/SHUC/blob/master/shuc-final.png">
 </p>
 
 ## Frame
+
 <p align="center">
   <img src="https://github.com/danenigma/SHUC/blob/master/shuc_frame.jpg">
-  <img src="https://github.com/danenigma/SHUC/blob/master/shuc_frame.jpg">
+  <img src="https://github.com/danenigma/SHUC/blob/master/shuc-labeled.jpg">
 </p>
 
 ## Body Design
+
+<p align="center">
+  <img src="https://github.com/danenigma/SHUC/blob/master/shuc_body_design.jpg">
+</p>
