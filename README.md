@@ -20,6 +20,14 @@
   <img width="369" height="363" src="https://github.com/danenigma/SHUC/blob/master/shuc-labeled.jpg">
 </p>
 
+## Android Application
+
+<p align="center">
+  <img src="https://github.com/danenigma/SHUC/blob/master/shuc-nav-app.png">
+  <img src="https://github.com/danenigma/SHUC/blob/master/shuc-vid-stream.jpg">
+</p>
+
+
 ## Body Design
 
 <p align="center">
