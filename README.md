@@ -28,7 +28,7 @@
 </p>
 
 
-## Body Design
+## Body Mold
 
 <p align="center">
   <img width="369" height="363"  src="https://github.com/danenigma/SHUC/blob/master/shuc_body_design.jpg">
