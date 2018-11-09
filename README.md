@@ -24,7 +24,7 @@
 
 <p align="center">
   <img src="https://github.com/danenigma/SHUC/blob/master/shuc-nav-app.png">
-  <img src="https://github.com/danenigma/SHUC/blob/master/shuc-vid-stream.jpg">
+  <img src="https://github.com/danenigma/SHUC/blob/master/shuc-vid-stream.png">
 </p>
 
 
