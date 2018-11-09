@@ -23,8 +23,8 @@
 ## Android Application
 
 <p align="center">
-  <img src="https://github.com/danenigma/SHUC/blob/master/shuc-nav-app.png">
-  <img src="https://github.com/danenigma/SHUC/blob/master/shuc-vid-stream.png">
+  <img width="369" height="363" src="https://github.com/danenigma/SHUC/blob/master/shuc-nav-app.png">
+  <img width="369" height="363" src="https://github.com/danenigma/SHUC/blob/master/shuc-vid-stream.png">
 </p>
 
 
