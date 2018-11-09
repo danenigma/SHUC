@@ -8,6 +8,11 @@
   <img src="https://github.com/danenigma/SHUC/blob/master/shuc-final.png">
 </p>
 
+## Overall System Architecture
+<p align="center">
+  <img src="https://github.com/danenigma/SHUC/blob/master/overall-sys.png">
+</p>
+
 ## Frame
 
 <p align="center">
