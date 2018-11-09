@@ -33,3 +33,8 @@
 <p align="center">
   <img width="369" height="363"  src="https://github.com/danenigma/SHUC/blob/master/shuc_body_design.jpg">
 </p>
+
+## Demo
+[SHUC eyes](https://www.youtube.com/watch?v=kLXe7wfBn30)
+[SHUC neck](https://www.youtube.com/watch?v=W1nFgOfRG8w)
+[SHUC performing SLAM](https://www.youtube.com/watch?v=DXvhSlTFk2I)
