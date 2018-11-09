@@ -18,5 +18,5 @@
 ## Body Design
 
 <p align="center">
-  <img src="https://github.com/danenigma/SHUC/blob/master/shuc_body_design.jpg">
+  <img width="369" height="363"  src="https://github.com/danenigma/SHUC/blob/master/shuc_body_design.jpg">
 </p>
