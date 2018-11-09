@@ -10,7 +10,7 @@
 
 <p align="center">
   <img src="https://github.com/danenigma/SHUC/blob/master/shuc_frame.jpg">
-  <img src="https://github.com/danenigma/SHUC/blob/master/shuc-labeled.jpg">
+  <img width="369" height="305" src="https://github.com/danenigma/SHUC/blob/master/shuc-labeled.jpg">
 </p>
 
 ## Body Design
